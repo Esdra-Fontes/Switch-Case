@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Developing in JavaScript...</title>
+            <body>
+                <script>
+                    /*
+                    Verificar o aumento do salário de acordo com os seguintes cargos:
+                    Estagiário: 100%
+                    Analista: 50%
+                    Gerente: 30%
+                    Presidente: 10%
+                    */
+
+                    const salario = prompt('Digite o salário:')
+                    const cargo = prompt('Digite o seu cargo:')
+                    let aumento = 0
+
+                    switch(cargo){
+                        case 'Estagiário': aumento = 2; break
+                        case 'Analista': aumento = 1.5; break
+                        case 'Gerente': aumento = 1.3; break
+                        case 'Presidente': aumento = 1.1; break
+                        default: alert('Por favor escolher um cargo válido!');
+                    }
+
+                    const novoSalario = salario * aumento
+                    alert('O seu novo salário é: ' + novoSalario)
+
+                </script>
+            </body>
+    </head>
+</html>
