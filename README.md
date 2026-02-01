@@ -1,4 +1,4 @@
-🌐 Switch Case:
+🧮 Switch Case:
 ---
 O **Switch Case** é uma estrutura de controle utilizada para executar diferentes blocos de código com base no valor de uma variável ou expressão. Ele é uma alternativa mais organizada ao uso de múltiplos `if` e `else if`, tornando o código mais legível e fácil de manter.
 
